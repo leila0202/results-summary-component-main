@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+#result-container {
+    background-color: lightgreen;
+    width: 375px;
+    border-radius: 20px;
+}
