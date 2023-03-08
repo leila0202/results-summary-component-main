@@ -13,40 +13,41 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding: 10px;}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
   <main>
     <section id="result-container">
-      <p id="result">
+      <div id="result">
 
-        Your Result
-        76
-        of 100
+        <h1 id="heading">Your Result</h1>
+        <div id="circle"><span id="score">76</span><span id="score-total">
+          of 100</span></div>
 
-        Great
-        You scored higher than 65% of the people who have taken these tests.
-      </p>
+        <h1 id="result-short">Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+        
+      </div>
 
       <div id="summary">
-        Summary
-        <p class="category">
-          Reaction
-          80 / 100
+        <h1>Summary</h1>
+        <p class="category" id="reaction">
+          <span>Reaction</span><span><span class="actual">80</span> <span class="total"> / 100 </span></span>
+          
         </p>
-        <p class="category">
-          Memory
-          92 / 100
+        <p class="category" id="memory">
+          <span>Memory</span>
+          <span><span class="actual">92</span><span class="total"> / 100</span> </span>
         </p>
-        <p class="category">
-          Verbal
-          61 / 100
+        <p class="category" id="verbal">
+          <span>Verbal</span>
+          <span><span class="actual">61</span><span class="total"> / 100</span> </span>
         </p>
-        <p class="category">
-          Visual
-          72 / 100
+        <p class="category" id="visual">
+          <span>Visual</span>
+          <span><span class="actual">72</span><span class="total"> / 100</span></span>
         </p>
 
         <button id="continue">
@@ -61,10 +62,12 @@
     
   </main>
   
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Leila Zrim</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Leila Zrim</a>.
+    </div>
+  </footer>
+
 </body>
 </html>
