@@ -11,6 +11,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued Development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -41,6 +42,10 @@ Users should be able to:
 ### What I learned
 
 I learned how/when to use flexbox
+
+### Continued development
+
+I'm going to implement responsive design for mobile and getting the design closer to the example. And I'm going to try to get more structure in the css and html.
 
 
 ## Author
