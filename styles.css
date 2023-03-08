@@ -9,22 +9,43 @@ body {
 }
 
 #result-container {
-    background-color: lightgreen;
+    background-color: white;
     width: 375px;
+    height: 500px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
 }
 
 
 #continue {
-    margin: 20px;
     color: white;
     background-color: blue;
     border-radius: 30px;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: none;
+}
+
+#result {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 20px;
+}
+
+#summary {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+}
+
+.category {
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 5px;
 }
