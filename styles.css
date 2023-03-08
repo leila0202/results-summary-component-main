@@ -32,6 +32,10 @@ body {
     font-size: 18px;
 }
 
+svg {
+    font-size: 18px;
+}
+
 
 #result {
     width: 100%;
