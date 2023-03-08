@@ -143,3 +143,8 @@ footer {
 #result p {
     color:hsl(241, 100%, 89%);
 }
+
+#continue:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
